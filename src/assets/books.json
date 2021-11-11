@@ -1,0 +1,53 @@
+{
+    "books": [
+        {
+            "isbn": "A874B69Q",
+            "name": "Libro 1",
+            "status": true,
+            "applicant": "",
+            "dateInit": "",
+            "dateFin": ""
+        },
+        {
+            "isbn": "T867B85Z",
+            "name": "Libro 2",
+            "status": true,
+            "applicant": "",
+            "dateInit": "",
+            "dateFin": ""
+        },
+        {
+            "isbn": "T878B11Z",
+            "name": "Libro 3",
+            "status": true,
+            "applicant": "",
+            "dateInit": "",
+            "dateFin": ""
+        },
+        {
+            "isbn": "T878B85O",
+            "name": "Libro 4",
+            "status": true,
+            "applicant": "",
+            "dateInit": "",
+            "dateFin": ""
+        },
+        {
+            "isbn": "A561165A",
+            "name": "Libro : Ejemplo palíndromo",
+            "status": true,
+            "applicant": "",
+            "dateInit": "",
+            "dateFin": ""
+        },
+        {
+            "isbn": "C101123A",
+            "name": "Libro : Ejemplo Menos de 30",
+            "status": true,
+            "applicant": "",
+            "dateInit": "",
+            "dateFin": ""
+        }
+    ],
+    "history": []
+}
