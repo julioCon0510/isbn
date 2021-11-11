@@ -1,39 +1,21 @@
 <template>
   <div class="fondo" id="app">
     <div id="header"></div>
-    <!-- <Principal v-bind:booksList="copyData" /> -->
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-// import Principal from "./components/principal.vue";
-// import Modal from "./components/modlal.vue";
-
+import data from "./assets/books.json";
 export default {
   name: "App",
   components: {
     // Principal,
   },
-  data() {
-    return {
-      books: [
-        {
-          isbn: "A874B69Q",
-          name: "Libro 1",
-          status: "Disponible",
-        },
-        {
-          isbn: "T878B85Z",
-          name: "Libro 2",
-          status: "Disponible",
-        },
-      ],
-      copyData: [],
-    };
-  },
   created() {
-    this.copyData = [...this.books];
+    if (!localStorage.getItem("data")) {
+      localStorage.setItem("data", JSON.stringify(data.books));
+    }
   },
 };
 </script>
@@ -50,4 +32,3 @@ export default {
   height: 100vh;
 }
 </style>
-
